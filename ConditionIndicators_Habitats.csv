@@ -1,0 +1,135 @@
+ECT_Class,Characteristic,Variable,Measurement,Habitat,Dataset_Age ,Data_Type
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),BC1,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),ED2,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),ED3,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),FS1,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),GA1,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),GS1,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),GS2,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),GS3,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),GS4,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),HD1,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),HH3,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),LR4,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),PB2,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),PB4,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),PB4HH3,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),PB5,2022,Both
+Abiotic,Physical State,Bare ground (soil or peat),Index (0-3),WS1,2022,Both
+Abiotic,Physical State,Burnt Area,Index (0-3),PB2,2022,Both
+Abiotic,Physical State,Drainage,Index (0-3),WD4,2022,Both
+Abiotic,Physical State,Drainage,Index (0-3),WS5,2022,Both
+Abiotic,Physical State,Erosion,Index (0-3),LR4,2022,Both
+Abiotic,Chemical State,Ground Waterbody Risk,Index (0-3),PB4HH3,2015,Remote
+Abiotic,Chemical State,Ground Waterbody Risk,Index (0-3),PB2,2015,Remote
+Abiotic,Chemical State,Ground Waterbody Risk,Index (0-3),PB4,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),BC1,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),ED2,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),ED3,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),GA1,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),GS1,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),GS2,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),GS3,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),GS4,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),HH3,2015,Remote
+Abiotic,Chemical State,PIP N,Index (0-3),WS1,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),ED2,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),ED3,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),GA1,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),GS1,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),GS3,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),GS4,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),HH3,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),PB2,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),PB5,2015,Remote
+Abiotic,Chemical State,PIP P,Index (0-3),WS1,2015,Remote
+Abiotic,Chemical State,PIP P Delivery Risk,Index (0-3),FL1,2015,Remote
+Abiotic,Chemical State,PIP P Delivery Risk,Index (0-3),FL2,2015,Remote
+Abiotic,Physical State,Tributary WFD Risk,Binary (0/1),FL1,2022,Remote
+Abiotic,Physical State,Tributary WFD Risk,Binary (0/1),FL2,2022,Remote
+Abiotic,Physical State,WFD Risk,Binary (0/1),FL2,2022,Remote
+Biotic,Compositional State,% 300m buffer with conifer plantation (WD4),%,FL1,2022,Remote
+Biotic,Compositional State,% 300m buffer with conifer plantation (WD4),%,FL2,2022,Remote
+Biotic,Compositional State,Average no. of tree species per stand,Index (0-3),WD4,2020,Remote
+Biotic,Structural State,Conifer Encroachment,Index (0-3),ED2,2022,Both
+Biotic,Structural State,Conifer Encroachment,Index (0-3),ED3,2022,Both
+Biotic,Structural State,Conifer Encroachment,Index (0-3),HD1,2022,Both
+Biotic,Structural State,Conifer Encroachment,Index (0-3),PB2,2022,Both
+Biotic,Structural State,Conifer Encroachment,Index (0-3),PB4,2022,Both
+Biotic,Structural State,Conifer Encroachment,Index (0-3),PB4HH3,2022,Both
+Biotic,Structural State,Conifer Encroachment,Index (0-3),PB5,2022,Both
+Biotic,Structural State,Crop Diversity,Index (0-3),BC1,2022,Field
+Biotic,Structural State,Deadwood Coverage,Index (0-3),WD4,2022,Field
+Biotic,Structural State,Deadwood Coverage,Index (0-3),WS5,2022,Field
+Biotic,Structural State,Fish Status (WFD),Index (0-3),FL1,2022,Remote
+Biotic,Structural State,Fish Status (WFD),Index (0-3),FL2,2022,Remote
+Biotic,Structural State,Grazing,Index (0-3),GA1,2022,Field
+Biotic,Structural State,Grazing,Index (0-3),GS2,2022,Field
+Biotic,Structural State,Grazing,Index (0-3),GS3,2022,Field
+Biotic,Structural State,Grazing,Index (0-3),GS4,2022,Field
+Biotic,Compositional State,GS2 Border,%,ED2,2022,Both
+Biotic,Compositional State,GS2 Border,%,GA1,2022,Both
+Biotic,Compositional State,Herbicide Use,Binary (0-1),ED2,2022,Both
+Biotic,Compositional State,Herbicide Use,Binary (0-1),ED3,2022,Both
+Biotic,Compositional State,Herbicide Use,Binary (0-1),GA1,2022,Both
+Biotic,Compositional State,Invasive species ,Binary (0-1),PB2,2019,Both
+Biotic,Compositional State,Invasive species ,Binary (0-1),WD4,2019,Both
+Biotic,Compositional State,Invasive species ,Binary (0-1),WS5,2019,Both
+Biotic,Structural State,Linear Feature (Hedgerow) Condition,Index (0-3),ED2,2022,Field
+Biotic,Structural State,Linear Feature (Hedgerow) Condition,Index (0-3),ED3,2022,Field
+Biotic,Structural State,Linear Feature (Hedgerow) Condition,Index (0-3),GA1,2022,Field
+Biotic,Structural State,Linear Feature (Hedgerow) Condition,Index (0-3),GS2,2022,Field
+Biotic,Structural State,Linear Feature (Hedgerow) Condition,Index (0-3),GS3,2022,Field
+Biotic,Structural State,Linear Feature (Hedgerow) Condition,Index (0-3),GS4,2022,Field
+Biotic,Compositional State,Perimeter w/ hedgerows/earthbanks,%,ED2,2022,Both
+Biotic,Compositional State,Perimeter w/ hedgerows/earthbanks,%,ED3,2022,Both
+Biotic,Compositional State,Perimeter w/ hedgerows/earthbanks,%,GA1,2022,Both
+Biotic,Structural State,River Q Value,Index (0-3),FL1,2022,Remote
+Biotic,Structural State,River Q Value,Index (0-3),FL2,2022,Remote
+Biotic,Structural State,Scrub Encroachment,Index (0-3),BC1,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),FS1,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),GA1,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),GS1,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),GS2,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),GS3,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),GS4,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),HD1,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),HH3,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),LR4,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),PB2,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),PB4,2022,Both
+Biotic,Structural State,Scrub Encroachment,Index (0-3),PB4HH3,2022,Both
+Biotic,Structural State,Shape Index,Index (0-3),WD4,2022,Remote
+Biotic,Structural State,Shape Index,Index (0-3),WS5,2022,Remote
+Biotic,Compositional State,Sphagnum coverage,Index (0-3),PB4,2022,Both
+Biotic,Compositional State,Sphagnum coverage,Index (0-3),PB4HH3,2022,Both
+Biotic,Compositional State,Trampling,Index (0-3),PB2,2022,Both
+Biotic,Compositional State,Trampling,Index (0-3),PB5,2022,Both
+Biotic,Structural State,Tree Cover Density,Index (0-3),WD4,2015,Remote
+Biotic,Structural State,Tree Cover Density,Index (0-3),WS5,2015,Remote
+Biotic,Structural State,Vegetation Height,Index (0-3),FS1,2022,Field
+Biotic,Compositional State,Vegetation Richness,Index (0-3),FS1,2022,Field
+Biotic,Structural State,Vegetation Structure,Index (0-3),PB2,2022,Field
+Biotic,Structural State,Vegetation Structure,Index (0-3),PB5,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),BC1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),ED2,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),ED3,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),FL1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),FL2,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),FS1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),GA1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),GS1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),GS2,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),GS3,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),GS4,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),HD1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),HH3,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),LR4,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),PB2,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),PB4,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),PB4HH3,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),PB5,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),WD4,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),WS1,2022,Field
+Landscape/Seascape,Landscape,% 5km buffer covered by protected areas,Index (0-3),WS5,2022,Field
+Landscape/Seascape,Landscape,WFD Risk,Binary (0/1),LR4,2022,Remote

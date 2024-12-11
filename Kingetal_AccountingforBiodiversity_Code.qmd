@@ -1,0 +1,735 @@
+---
+title: "Kingetal_AccountingforBiodiversity_Code"
+author: "KingE"
+format: html
+editor: visual
+---
+
+## Ecosystem accounting for biodiversity on windfarms. 
+
+Source code for plots and models run for King et al. Ecosystem accounting for biodiversity on windfarms. All windfarm sites have been annonymised and spatial co-ordinates removed.
+
+## Packages
+
+```{r}
+#|echo: false
+library(ggplot2)
+library(dplyr)
+library(RColorBrewer)
+library(cowplot)
+library(ggpattern)
+library(forcats)
+library(nlme)
+library(Matrix) #source package for lme4
+library(lme4)
+library(wec)
+library(DHARMa)
+library(car)
+library(openxlsx)
+```
+
+## Indicator selection
+
+***Fig. 3.*** Distribution of indicators across the SEEA-EA's Ecosystem Condition Typology characteristics (a) and across the Fossitt (2000) habtiat types (b) identified on Irish windfarm sites.
+
+```{r}
+#|echo: false
+#colour selection
+dark2 <- brewer.pal(8, "Dark2")
+accent <- brewer.pal(8, "Accent")
+paired <- brewer.pal(12, "Paired")
+set2 <- brewer.pal(8, "Set2")
+reylgn <- brewer.pal(11, "RdYlGn")
+```
+
+```{r}
+#load in data:
+indicators <- read.csv("ConditionIndicators_Habitats.csv", header = T)
+#check structure
+str(indicators)
+#change to factors
+indicators$ECT_Class <- as.factor(indicators$ECT_Class)
+indicators$Characteristic <- as.factor(indicators$Characteristic)
+indicators$Habitat <- as.factor(indicators$Habitat)
+indicators$Dataset_Age <- as.factor(indicators$Dataset_Age)
+
+#aggregate data by characteristic
+characteristic_counts <- aggregate(Variable ~ Characteristic, data = indicators, FUN = function(x) length(unique(x)))
+ect_type <- indicators$ECT_Class[match(characteristic_counts$Characteristic, indicators$Characteristic)]
+characteristic_counts$ECT_Class <- ect_type
+
+```
+
+##### Fig. 3(a) : 
+
+```{r}
+#labels for the xaxis
+ect_labels <- c("Chemical State", "Physical State", "Compositional State", "Structural State", "Landscape")
+
+#plot the characteristic counts
+characteristic_bar <- ggplot(characteristic_counts, aes(x = interaction(Characteristic, ECT_Class), y = Variable, fill = Characteristic, pattern = ECT_Class)) +
+  geom_bar_pattern(stat = "identity", position = "stack",
+           pattern_density = 0.05,         # Adjust density of the pattern
+           pattern_spacing = 0.05,        # Adjust spacing between pattern lines
+           pattern_angle = 45,
+           show.legend = c(fill = FALSE, pattern = TRUE)) +          # Adjust the angle of the hatching) +
+  scale_fill_manual(values = accent) +
+  scale_pattern_manual(values = c("stripe", "crosshatch", "none")) + 
+  labs(x = "Characteristic", y = "No. of Indicators", pattern = "ECT Class") +
+  theme_light() + 
+  theme(legend.position = "bottom", axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_x_discrete(labels = ect_labels) +
+  scale_y_continuous(breaks = seq(0, max(characteristic_counts$Variable), by = 2)) +
+  guides(fill = "none", pattern = guide_legend(ncol = 3)) +
+  theme(axis.text.x = element_text(size = 18, color = "black"),
+        axis.text.y = element_text(size = 18, color = "black"),
+        axis.title = element_text(size = 20, color = "black"),   
+        axis.line = element_line(color = "black"),
+        legend.title = element_text(size = 20, color = "black"),
+        legend.text = element_text(size = 18, color ="black"),
+        plot.title = element_text(size = 20, face = "bold", color = "black")) +
+  ggtitle("(a)")
+```
+
+##### Fig. 3(b):
+
+```{r}
+#number of characteristics per habitat type
+habitat_counts <- indicators %>%
+  group_by(Habitat, Characteristic) %>%
+  summarise(count = n())
+
+
+#plot the characteristics per habitat type
+habitat_bar <- ggplot(habitat_counts, aes(x = Habitat, y = count, fill = Characteristic)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = accent) +             # Keep the same color scheme) +
+  labs(x = "Habitat", y = "No. of Indicators") +
+  theme_light() + 
+  theme(legend.position = "bottom", axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(breaks = seq(0, max(characteristic_counts$Variable), by = 2)) +
+  theme(axis.text.x = element_text(size = 18, color = "black"),
+        axis.text.y = element_text(size = 18, color = "black"),
+        axis.title = element_text(size = 20, color = "black"),   
+        axis.line = element_line(color = "black"),   
+        legend.title = element_text(size = 20, color = "black"),
+        legend.text = element_text(size = 18, color ="black"),
+        plot.title = element_text(size = 20, face = "bold", color = "black")) +
+  guides(fill = guide_legend(ncol = 3)) +
+  ggtitle("(b)")
+
+```
+
+```{r}
+
+#combine the bar plots
+indicator_bars <- plot_grid(characteristic_bar, habitat_bar, 
+                           align = "v", hjust = -1)
+
+#save
+#ggsave("indicator_bars.png", plot = indicator_bars, dpi = 1000, height = 10, width = 20)
+```
+
+## Extent accounts
+
+Results section - number of habitats identified using Fossitt (2000) Guide to Habitat's in Ireland and the IUCN Global Ecosystem Typology.
+
+```{r}
+#load in the data
+extent_data <- read.csv("extent_data_anon.csv", header = T)
+
+#check structure
+str(extent_data)
+
+#set as factors
+extent_data$Site <- as.factor(extent_data$Site)
+extent_data$County <- as.factor(extent_data$County)
+extent_data$Fossitt <- as.factor(extent_data$Fossitt)
+extent_data$Land_use <- as.factor(extent_data$Land_use)
+extent_data$IUCN_habitat_biome <- as.factor(extent_data$IUCN_habitat_biome)
+extent_data$IUCN_habitat_realm <- as.factor(extent_data$IUCN_habitat_realm)
+extent_data$IUCN_habitat_EFG <- as.factor(extent_data$IUCN_habitat_EFG)
+
+extent_data$Percent_Cover_m2 <- round(extent_data$Percent_Cover_m2)
+```
+
+```{r}
+#number of habitats (Fossitt)
+unique(extent_data$Fossitt)
+length(unique(extent_data$Fossitt))
+
+#number of habitats (general)
+unique(extent_data$IUCN_habitat_EFG)
+length(unique(extent_data$IUCN_habitat_EFG))
+
+#frequency of habitats
+habitat_counts <- extent_data %>%
+  group_by(Fossitt) %>%
+  summarise(count = n())
+print(habitat_counts, n = 27)
+
+iucn_counts <- extent_data %>%
+  group_by(IUCN_habitat_EFG) %>%
+  summarise(count = n())
+print(iucn_counts)
+```
+
+```{r}
+#plot the frequency of habitats
+ggplot(habitat_counts, aes(x = Fossitt, y = count)) +
+  geom_bar(stat = "identity", fill = "#386CB0") +
+  labs(x = "Fossitt Code (Level 3)", y = "Frequency") +
+  theme_light() + 
+  theme(legend.position = "bottom", axis.text.x = element_text(angle = 45, hjust = 1)) +
+  #scale_y_continuous(breaks = seq(0, max(habitat_counts$count), by = 2)) +
+  ggtitle("(a)")
+
+
+#aggregate the Fossitt Codes for each Land Use type 
+total_areas_fossitt <- extent_data %>%
+  group_by(Land_use, Fossitt) %>%
+  summarise(total_area_m2 = sum(Area_m2))
+
+tibble(total_areas_fossitt)
+
+#aggregate the IUCN EFG for each Land Use type
+total_areas_IUCN <- extent_data %>%
+  group_by(Land_use, IUCN_habitat_EFG) %>%
+  summarise(total_area_m2 = sum(Area_m2))
+
+tibble(total_areas_IUCN)
+```
+
+## Condition accounts
+
+Results section - differences among habitats.
+
+```{r}
+#load in the data
+condition_scores <- read.csv("condition_data_anon.csv")
+
+#check the structure
+str(condition_scores)
+
+#set as factors
+condition_scores$AssetID <- as.factor(condition_scores$AssetID)
+condition_scores$Site <- as.factor(condition_scores$Site)
+condition_scores$Land_use <- as.factor(condition_scores$Land_use)
+condition_scores$IUCN_habitat <- as.factor(condition_scores$IUCN_habitat)
+condition_scores$IUCN_habitat_EFG <- as.factor(condition_scores$IUCN_habitat_EFG)
+condition_scores$FossittLvl1 <- as.factor(condition_scores$FossittLvl1)
+condition_scores$FossittLvl2 <- as.factor(condition_scores$FossittLvl2)
+condition_scores$Fossitt <- as.factor(condition_scores$Fossitt)
+```
+
+```{r}
+scores <- condition_scores %>%
+  group_by(AssetID) %>%
+  summarise(condscore = sum(Weighted))
+
+print(scores)
+min(scores$condscore)
+max(scores$condscore)
+mean(scores$condscore)
+
+#fixing errors where condition score is >1
+#errors <- scores[scores$condscore >1, ]
+#errors
+
+#giving land use a name for labellilng
+landuse <- c("Agriculture", "Commercial forestry", "Upland blanket bog")
+#giving sites a name for labelling
+sites_anon <- c("A", "B", "C", "D", "E", "F", "G")
+
+
+#add existing informational data to the condition scores
+
+unique_assets <- condition_scores %>%
+  distinct(AssetID, .keep_all = TRUE) %>%
+  select(AssetID, Site, Land_use, IUCN_habitat, IUCN_habitat_EFG, Fossitt, FossittLvl1, FossittLvl2, Area_m2)
+
+condscores <- left_join(scores, unique_assets, by = "AssetID")
+```
+
+```{r}
+#working out average condition scores across groupings
+#Land Use:
+aggregate(condscore ~ Land_use, data = condscores, FUN = mean)
+
+#IUCN habitat class
+aggregate(condscore ~ IUCN_habitat, data = condscores, FUN = mean)
+
+#IUCN habitat EFG
+aggregate(condscore ~ IUCN_habitat_EFG, data = condscores, FUN = mean)
+
+#Fossitt Lvl 3
+aggregate(condscore ~ Fossitt, data = condscores, FUN = mean)
+
+#Fossitt Lvl 1
+aggregate(condscore ~ FossittLvl1, data = condscores, FUN = mean)
+
+#Fossitt Lvl 2
+aggregate(condscore ~ FossittLvl2, data = condscores, FUN = mean)
+
+#site:
+aggregate(condscore ~ Site,  data = condscores, FUN = mean)
+
+```
+
+Boxplots of distribution of condition score for each category:
+
+##### Fig. 4(a)
+
+```{r}
+#Land use:
+landuse_bp <- ggplot(condscores, aes(x = Land_use, y = condscore, fill = Land_use)) +
+  geom_boxplot() +
+  scale_x_discrete(labels = landuse) +
+  scale_fill_manual(values = accent) +
+  labs(x = "Land use", y = "Condition Score", fill = "Land Use") +
+  ggtitle("(a) Land use") +
+  theme_light() +
+  theme(axis.text.x = element_text(size = 20, color = "black"),
+        axis.text.y = element_text(size = 20, color = "black"),
+        axis.title = element_text(size = 24, color = "black"),   
+        axis.line = element_line(color = "black"),   
+        plot.title = element_text(size = 24, face = "bold", color = "black"),
+        legend.position = "none") 
+```
+
+##### Fig. 4(b)
+
+```{r}
+iucn_bp <- ggplot(condscores, aes(x = IUCN_habitat_EFG, y = condscore)) +
+  geom_boxplot() +
+  labs(x = "IUCN Habitat Class", y = "Condition Score") +
+  ggtitle("(b) IUCN Habitat Class") +
+  theme_light() +
+  theme(axis.text.x = element_text(size = 20, color = "black"),
+        axis.text.y = element_text(size = 20, color = "black"),
+        axis.title = element_text(size = 24, color = "black"),   
+        axis.line = element_line(color = "black"),   
+        plot.title = element_text(size = 24, face = "bold", color = "black"))
+```
+
+##### Fig. 4(c)
+
+```{r}
+fossittlvl2_bp <- ggplot(condscores, aes(x = FossittLvl2, y = condscore)) +
+  geom_boxplot() +
+  labs(x = "Fossitt (Lvl 2)", y = "Condition Score") +
+  ggtitle("(c) Fossitt (Lvl2)") +
+  theme_light() +
+  theme(axis.text.x = element_text(size = 20, color = "black"),
+        axis.text.y = element_text(size = 20, color = "black"),
+        axis.title = element_text(size = 24, color = "black"),   
+        axis.line = element_line(color = "black"),   
+        plot.title = element_text(size = 24, face = "bold", color = "black"))
+```
+
+##### Fig. 4(d)
+
+```{r}
+site_bp <- ggplot(condscores, aes(x = Site, y = condscore, fill = Land_use)) +
+  geom_boxplot() +
+  scale_x_discrete(labels = sites_anon) +
+  scale_fill_manual(values = accent,
+                    labels = landuse) +
+  labs(x = "Site", y = "Condition Score", fill = "Land use") +
+  ggtitle("(d) Site") +
+  theme_light() +
+  theme(axis.text.x = element_text(size = 20, color = "black"),
+        axis.text.y = element_text(size = 20, color = "black"),
+        axis.title = element_text(size = 24, color = "black"),   
+        axis.line = element_line(color = "black"),   
+        plot.title = element_text(size = 24, face = "bold", color = "black")) +
+  # theme(legend.position = "none")
+  theme(legend.position = "right",
+  legend.title = element_text(size = 24, color = "black"),
+  legend.text = element_text(size = 20, color = "black"),
+ legend.background = element_rect(fill = NA)) 
+```
+
+##### Fig.4 (all)
+
+```{r}
+#put them together
+condscore_boxplots <- plot_grid(landuse_bp, iucn_bp, fossittlvl2_bp, site_bp, hjust = -1)
+
+#ggsave("condscore_boxplots.png", plot = condscore_boxplots, dpi = 1000, height = 20, width = 24)
+
+
+```
+
+### Modelling how condition scores vary
+
+Modelling how condition scores vary using mixed-effects model (as site is a random effect), and Weighted Effects Coding.
+
+##### m1 - model 1 
+
+```{r}
+#modelling how condition scores vary with IUCN habitat type 
+# mixed-effects model -> because site is a random effect
+m1 <- lme(condscore ~ IUCN_habitat, random = ~1|Site, data = condscores)
+summary(m1)
+```
+
+##### m2 - model 2
+
+```{r}
+#modelling how condition scores vary with Fossitt (Lvl3) habitat type
+#mixed-effects model -> because site is a random effect
+m2 <- lme(condscore ~ Fossitt, random = ~1|Site, data = condscores)
+summary(m2)
+plot(m2)
+```
+
+##### m3 - model 3
+
+```{r}
+#modelling how condition scores vary with land use type
+m3 <- lme(condscore ~ Land_use, random = ~1|Site, data = condscores)
+summary(m3)
+```
+
+##### Null model
+
+```{r}
+#Generalised linear mixed models (Following similar steps to McKeon et al. (2023))
+#Random effects structure
+#Random effects capture the variability within groups that cannot be explained by the fixed effects in  the model
+#Null model to determine random effects structure
+null_model <- lmer(condscore ~ 0 + (1 | Site), data = condscores) # 0 represents no fixed effects in the model
+#the null model contains only the random intercepts for the grouping variable - Site
+summary(null_model)
+```
+
+##### m4 - model 4
+
+```{r}
+#going to try a maximal GLMM
+m4 <- lmer(condscore ~ Land_use + Fossitt + (1 | Site),
+                     data = condscores)
+summary(m4)
+
+
+#plot the model outputs
+#forest plot - displaying the estimated coefficients along with their confidence intervals
+#extract fixed effects estimates and standard errors
+fixed_effects <- as.data.frame(coef(summary(m4)))
+fixed_effects$variables <- rownames(fixed_effects)
+#remove the (Intercept) row, as it's not needed for the plot
+fixed_effects <- fixed_effects[-1,]
+#plot the forest plot
+ggplot(fixed_effects, aes(x = Estimate, y = variables)) +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = Estimate - 1.96 * `Std. Error`,
+                     xmax = Estimate + 1.96 * `Std. Error`),
+                 height = 0) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  labs(x = "Estimate", y = "Variables") +
+  ggtitle("Forest plot of fixed effects") +
+  theme_minimal()
+#interpretation -> positive estimates indicate a positive association with the responsevariable, negative estimates indicate a negative association
+```
+
+*Weighted effects coding (WEC)*
+
+```{r}
+#Using Weighted Effects Coding (WEC) for specifying contrasts in GLMMs
+#specify contrasts for land_use and fossitt variables
+contrasts(condscores$Land_use) <- matrix(c(0, 1, -1), nrow = 3, ncol = 3, byrow = TRUE)
+
+# Manually specify contrast matrix for Fossitt variable
+# Example: If you want to compare each level with the first level (BC1)
+condscores$Land_use.wec <- factor(condscores$Land_use)
+contrasts(condscores$Land_use.wec) <- contr.wec(condscores$Land_use, "Agriculture")
+
+condscores$IUCN_habitat.wec <- factor(condscores$IUCN_habitat)
+contrasts(condscores$IUCN_habitat.wec) <- contr.wec(condscores$IUCN_habitat, "Urban and industrial ecosystems")
+
+condscores$Fossitt.wec <- factor(condscores$Fossitt)
+contrasts(condscores$Fossitt.wec) <- contr.wec(condscores$Fossitt, "GA1")
+```
+
+##### m5 - model 5
+
+```{r}
+m5 <- lmer(condscore ~ Fossitt.wec + Land_use + (1 | Site), data = condscores)
+summary(m5)
+```
+
+```{r}
+#plotting m5
+m5_fixed_effects <- fixef(m5)
+m5_se <- sqrt(diag(vcov(m5)))
+
+m5_plot_data <- data.frame(Effect = names(m5_fixed_effects),
+                           Estimate = m5_fixed_effects,
+                           SE = m5_se)
+
+m5_plot_data$LowerCI <- m5_plot_data$Estimate - 1.96 * m5_plot_data$SE
+m5_plot_data$UpperCI <- m5_plot_data$Estimate + 1.96 * m5_plot_data$SE
+
+ggplot(m5_plot_data, aes(x = Estimate, y = Effect)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = LowerCI, xmax = UpperCI), height = 0) +
+  labs(x = "Estimate", y = "Effect") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  theme_minimal()
+```
+
+##### m6 - model 6
+
+```{r}
+m6 <- lmer(condscore ~ IUCN_habitat.wec + Land_use + (1 | Site), data = condscores)
+summary(m6)
+```
+
+```{r}
+#plotting m6
+m6_fixed_effects <- fixef(m6) 
+m6_se <- sqrt(diag(vcov(m6)))
+
+m6_plot_data <- data.frame(Effect = names(m6_fixed_effects), 
+                        Estimate = m6_fixed_effects, 
+                        SE = m6_se)
+
+m6_plot_data$LowerCI <- m6_plot_data$Estimate - 1.96 * m6_plot_data$SE
+m6_plot_data$UpperCI <- m6_plot_data$Estimate +1.96 *m6_plot_data$SE
+
+ggplot(m6_plot_data, aes(x = Estimate, y = Effect)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = LowerCI, xmax = UpperCI), height = 0) +
+  labs(x = "Estimate", y = "Effect") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  theme_minimal()
+
+```
+
+*Setting the reference value to forestry*
+
+```{r}
+condscores$Land_use.wec <- factor(condscores$Land_use)
+contrasts(condscores$Land_use.wec) <- contr.wec(condscores$Land_use, "Commercial forestry")
+
+condscores$Fossitt.wec <- factor(condscores$Fossitt)
+contrasts(condscores$Fossitt.wec) <- contr.wec(condscores$Fossitt, "WD4")
+```
+
+##### m7 - model 7
+
+```{r}
+m7 <- lmer(condscore ~ Land_use.wec + Fossitt.wec + (1 | Site), data = condscores)
+summary(m7)
+```
+
+```{r}
+#plotting m7
+m7_fixed_effects <- fixef(m7)
+
+m7_se <- sqrt(diag(vcov(m7)))
+
+m7_plot_data <- data.frame(Effect = names(m7_fixed_effects),
+                           Estimate = m7_fixed_effects,
+                           SE = m7_se)
+#remove the (Intercept) row, as it's not needed for the plot
+m7_plot_data<- m7_plot_data[-1,]
+
+m7_plot_data$LowerCI <- m7_plot_data$Estimate - 1.96 * m7_plot_data$SE
+m7_plot_data$UpperCI <- m7_plot_data$Estimate + 1.96 * m7_plot_data$SE
+
+ggplot(m7_plot_data, aes(x = Estimate, y = Effect)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = LowerCI, xmax = UpperCI), height = 0) +
+  labs(x = "Estimate", y = "Effect") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  theme_minimal()
+
+```
+
+```{r}
+#testing parameters using the DHARMa package
+#m7
+m7_simulationOutput <- simulateResiduals(fittedModel = m7, n = 250)
+hist(m7_simulationOutput)
+
+testDispersion(m7_simulationOutput)
+
+testZeroInflation(m7_simulationOutput)
+
+residuals(m7_simulationOutput)
+plotResiduals(m7_simulationOutput)
+testResiduals(m7_simulationOutput)
+testUniformity(m7_simulationOutput)
+```
+
+```{r}
+#extract fixed effects coefficients
+m7_fixedeffects <- fixef(m7)
+
+#identify the reference levels
+m7_referencelevels <- list(
+  Land_use.wec = "Commercial forestry",
+  Fossitt.wec = "WD4")
+
+#create a data frame with the combinations of predictor levels 
+m7_predictedresponse <- expand.grid(
+  Land_use.wec = c("Agriculture", "Commercial forestry", "Upland blanket bog and heath"),
+  Fossitt.wec = c("BC1",    "ED3",    "ED3HH1", "FL1",    "FL2",    "FS1",    "FW2",    "GA1",    "GS1",    "GS2",   
+                       "GS3",    "GS4",    "HD1",    "HH1",   "HH3",  "LR4",    "PB2",    "PB4",    "PB4HH3", "PB5",   
+                       "WD4",    "WS1",    "WS5"))
+#use relevel to set reference levels
+for (variable in names(m7_referencelevels)) {
+  m7_predictedresponse[[variable]] <- relevel(m7_predictedresponse[[variable]], m7_referencelevels[[variable]])
+}
+
+
+m7_predicted <- predict(m7, newdata = m7_predictedresponse, re.form = NA)
+
+m7_predictedresponse$predicted <- m7_predicted
+
+print(m7_predictedresponse)
+
+#now plot on a forest plot:
+#create labels
+land_use_levels <- c("Agriculture", "Commercial Forestry", "Upland blanket bog and heath")
+Fossitt_habitat_levels <- c("BC1",    "ED3",    "ED3HH1", "FL1",    "FL2",    "FS1",    "FW2",    "GA1",    "GS1",    "GS2",   
+                            "GS3",    "GS4",    "HD1",    "HH1",   "HH3",  "LR4",    "PB2",    "PB4",    "PB4HH3", "PB5",   
+                            "WD4",    "WS1",    "WS5")
+
+#create a new column for the combined factor levels
+m7_predictedresponse$combined_levels <- interaction(m7_predictedresponse$Land_use.wec, m7_predictedresponse$Fossitt.wec)
+ 
+#define the order of the levels
+m7_predictedresponse$combined_levels <- factor(m7_predictedresponse$combined_levels, levels = interaction(land_use_levels, Fossitt_habitat_levels))
+
+ggplot(m7_predictedresponse, aes(x = predicted, y = Fossitt.wec, color = Land_use.wec)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = predicted - 1.96 * 0.11050, xmax = predicted + 1.96 * 0.11050), height = 0) + 
+  labs(x = "Predicted response", y = "Land use") +
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 8), axis.title.y = element_blank())
+
+
+ggplot(m7_predictedresponse, aes(x = predicted, y = Land_use.wec, color = Fossitt.wec)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = predicted - 1.96 * 0.11050, xmax = predicted + 1.96 * 0.11050), height = 0) + 
+  labs(x = "Predicted response", y = "Land use") +
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 8), axis.title.y = element_blank())
+
+
+```
+
+##### m8 - model 8
+
+```{r}
+m8 <- lmer(condscore ~ IUCN_habitat.wec + Land_use.wec + (1 | Site), data = condscores)
+```
+
+```{r}
+#testing parameters using the DHARMa package
+#m8
+m8_simulationOutput <- simulateResiduals(fittedModel = m8, n= 250)
+hist(m8_simulationOutput)
+
+testDispersion(m8_simulationOutput)
+
+testZeroInflation(m8_simulationOutput)
+
+residuals(m8_simulationOutput)
+plotResiduals(m8_simulationOutput)
+testResiduals(m8_simulationOutput)
+testUniformity(m8_simulationOutput)
+
+#calculate estimated marginal means for land.use.wec
+anova(m8, type ="III")
+
+kruskal_test_result <- kruskal.test(condscore ~ Land_use.wec, data = condscores)
+
+# Extract p-value
+p_value_kruskal <- kruskal_test_result$p.value
+
+# Print p-value
+print(p_value_kruskal)
+
+kruskal_test_result_iucn <- kruskal.test(condscore ~ IUCN_habitat.wec, data = condscores)
+
+# Extract p-value
+p_value_kruskal_iucn <- kruskal_test_result_iucn$p.value
+
+# Print p-value
+print(p_value_kruskal_iucn)
+
+kruskal_test_result_fossitt <- kruskal.test(condscore ~ Fossitt.wec, data = condscores)
+
+# Extract p-value
+p_value_kruskal_fossitt <- kruskal_test_result_fossitt$p.value
+
+# Print p-value
+print(p_value_kruskal_fossitt)
+```
+
+```{r}
+#extract fixed effects coefficients
+m8_fixedeffects <- fixef(m8)
+
+#identify the reference levels
+m8_referencelevels <- list(
+  Land_use.wec = "Commercial forestry",
+  IUCN_habitat.wec = "Urban and industrial ecosystems")
+
+#create a data frame with the combinations of predictor levels 
+m8_predictedresponse <- expand.grid(
+  Land_use.wec = c("Agriculture", "Commercial forestry", "Upland blanket bog and heath"),
+  IUCN_habitat.wec = c("Annual croplands","Boreal, temperate and montane peat bogs", "Cool temperate heathlands", "Derived semi-natural pastures and oldfields", "Permanent lowland rivers","Permanent marshes", "Plantations","Sandy shorelines", "Small permanent freshwater lakes","Sown pastures and fields","Urban and industrial ecosystems"))
+
+#use relevel to set reference levels
+for (variable in names(m8_referencelevels)) {
+ m8_predictedresponse[[variable]] <- relevel(m8_predictedresponse[[variable]], m8_referencelevels[[variable]])
+  }
+
+m8_predicted <- predict(m8, newdata = m8_predictedresponse, re.form = NA)
+
+m8_predictedresponse$predicted <- m8_predicted
+
+print(m8_predictedresponse)
+```
+
+```{r}
+#now plot on a forest plot:
+#create a new column for the combined factor levels
+land_use_levels <- c("Agriculture", "Commercial Forestry", "Upland blanket bog and heath")
+IUCN_habitat_levels <- c("Annual croplands","Boreal, temperate and montane peat bogs", "Cool temperate heathlands", "Derived semi-natural pastures and oldfields", "Permanent lowland rivers","Permanent marshes", "Plantations","Sandy shorelines", "Small permanent freshwater lakes","Sown pastures and fields","Urban and industrial ecosystems")
+
+#create a new column for the combined factor levels
+m8_predictedresponse$combined_levels <- interaction(m8_predictedresponse$Land_use.wec, m8_predictedresponse$IUCN_habitat.wec)
+
+#define the order of the levels
+m8_predictedresponse$combined_levels <- factor(m8_predictedresponse$combined_levels, levels = interaction(land_use_levels, IUCN_habitat_levels))
+
+#plot the forest plot
+ggplot(m8_predictedresponse, aes(x = predicted, y = IUCN_habitat.wec, color = Land_use.wec)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = predicted - 1.96 * 0.11050, xmax = predicted + 1.96 * 0.11050), height = 0) + 
+  labs(x = "Predicted response", y = "Land use") +
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 8), axis.title.y = element_blank())
+
+
+ggplot(m8_predictedresponse, aes(x = IUCN_habitat.wec, y = predicted, color = Land_use.wec)) +
+  geom_point() +
+  geom_errorbarh(aes(xmin = predicted - 1.96 * 0.11050, xmax = predicted + 1.96 * 0.11050), height = 0) + 
+  labs(x = "Predicted response", y = "Land use") +
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 8), axis.title.y = element_blank())
+
+```
+
+##### m9 - model 9
+
+```{r}
+m9 <- glm(condscore ~ Land_use, data = condscores)
+summary(m9)
+```

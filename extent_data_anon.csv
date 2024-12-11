@@ -1,0 +1,667 @@
+AssetID,Site,County,Land_use,IUCN_habitat_realm,IUCN_habitat_biome,IUCN_habitat_EFG,Fossitt,Area_m2,Area_ha,Percent_Cover_m2
+BAWS504,A,Cork,Commercial forestry,Terrestrial,T3,T3.3,WS5,197822,20,4.504303887
+BAWS502,A,Cork,Commercial forestry,Terrestrial,T3,T3.3,WS5,94268,10,2.146433252
+BAWD401,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,86065,9,1.959655215
+BAWD402,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,5849,1,0.133178683
+BAWD403,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,63910,6,1.455197407
+BAWD404,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,52533,5,1.196149044
+BAWD405,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,47913,5,1.09095405
+BAWD406,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,62600,6,1.425369389
+BAWD407,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,70643,7,1.608504309
+BAWD408,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,77331,8,1.760786585
+BAWD409,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,86748,9,1.97520677
+BAWD410,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,8881,1,0.202215744
+BAWD411,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,100645,10,2.29163422
+BAWD412,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,103839,10,2.364359936
+BAWD413,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,38550,4,0.877763418
+BAWD415,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,21202,2,0.482758495
+BAWD416,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,263047,26,5.989443159
+BAWD418,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,247851,25,5.643438155
+BAWD419,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,224153,22,5.10384704
+BAWD421,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,41690,4,0.949259582
+BAWD423,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,80294,8,1.828252552
+BAWD424,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,38301,4,0.872093818
+BAWD425,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,37553,4,0.855062247
+BAWD427,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,114594,11,2.609245684
+BAWD428,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,91938,9,2.093380366
+BAWD429,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,154481,16,3.517451895
+BAWD430,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,72623,7,1.653587878
+BAWD433,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,369474,37,8.412730507
+BAWD434,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,41855,4,0.953016546
+BAWD435,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,134711,14,3.067299294
+BAWD436,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,125177,13,2.85021508
+BAWD437,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,103040,10,2.346167123
+BAWD438,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,23025,2,0.524267255
+BAWD440,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,21669,2,0.493391842
+BAWD441,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,78788,8,1.793961716
+BAWD443,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,45183,5,1.028793372
+BAWD444,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,52735,5,1.200748478
+BAWD445,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,19863,2,0.452270163
+BAWD447,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,85412,9,1.944786746
+BAWD448,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,46947,5,1.068958734
+BAWD450,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,16078,2,0.366087684
+BAWD451,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,5392,1,0.122773031
+BAWD453,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,61091,6,1.391010245
+BAWD454,A,Cork,Commercial forestry,Terrestrial,T7,T7.3,WD4,1585,0,0.036089624
+BAHH105,A,Cork,Commercial forestry,Terrestrial,T3,T3.3,HH1,348619,35,7.937873021
+BAGS201,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,653,0,0.01486847
+BAGS203,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,668,0,0.015210012
+BAGS205,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,2243,0,0.051071942
+BAGS207,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,4526,0,0.103054662
+BAGS209,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,4094,0,0.093218247
+BAGS211,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,4379,0,0.099707549
+BAGS215,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,2376,0,0.054100282
+BAGS217,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,2452,0,0.055830763
+BAGS218,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,2094,0,0.047679289
+BAGS220,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,8079,1,0.183954621
+BAGS222,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,2199,0,0.050070084
+BAGS223,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,16991,2,0.386876219
+BAGS225,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,1764,0,0.040165361
+BAGS226,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,2691,0,0.061272668
+BAGS227,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,484,0,0.011020428
+BAGS228,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,3850,0,0.087662494
+BAGS229,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,3334,0,0.075913443
+BAGS230,A,Cork,Commercial forestry,Terrestrial,T7,T7.5,GS2,315,0,0.007172386
+BAED3HH102,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,6514,1,0.148320387
+BAED3HH103,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,9776,1,0.222594427
+BAED3HH104,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,4767,0,0.108542107
+BAED3HH108,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,6613,1,0.150574565
+BAED3HH112,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,6980,1,0.158930964
+BAED3HH114,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,7721,1,0.175803148
+BAED3HH116,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,10552,1,0.240263543
+BAED3HH118,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,31515,3,0.717580133
+BAED3HH119,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,12527,1,0.285233264
+BAED3HH122,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,18437,2,0.419800885
+BAED3HH123,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3/HH1,20528,2,0.467411866
+BAED302,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3,2377,0,0.054123052
+BAED303,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3,3526,0,0.080285183
+BAED304,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3,692,0,0.01575648
+BAED306,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3,1779,0,0.040506903
+BAED307,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED3,1025,0,0.023338716
+BAED201,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,443,0,0.010086879
+BAED202,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,1236,0,0.028143076
+BAED203,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,9146,1,0.208249655
+BAED204,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,1528,0,0.034791764
+BAED206,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,1447,0,0.032947436
+BAED207,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,1088,0,0.024773193
+BAED208,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,8016,1,0.182520144
+BAED209,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,5585,1,0.127167541
+BAED210,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,4417,0,0.100572789
+BAED211,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,10401,1,0.236825352
+BAED212,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,29629,3,0.674636895
+BAED213,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,8063,1,0.18359031
+BAED216,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,7490,1,0.170543398
+BAED217,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,1648,0,0.037524101
+BAED218,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,5292,1,0.120496083
+BAED220,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,ED2,2377,0,0.054123052
+BABL301,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,BL3,3358,0,0.076459911
+BABL302,A,Cork,Commercial forestry,Terrestrial,T7,T7.4,BL3,16191,2,0.368660635
+CAWS125,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,268,0,0.034028289
+CAWS101,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,3467,1,0.440209249
+CAWS102,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,1072,0,0.136113157
+CAWS103,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,13912,0,1.766423728
+CAWS104,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,46447,1,5.897432642
+CAWS106,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,1467,5,0.186266792
+CAWS110,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,2547,0,0.323395719
+CAWS111,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,884,0,0.112242566
+CAWS113,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,1900,0,0.241245334
+CAWS114,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,4441,0,0.563879225
+CAWS115,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,263,0,0.033393433
+CAWS118,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,11521,0,1.462835521
+CAWS120,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,1868,0,0.237182255
+CAWS121,B,Wexford,Agriculture,Terrestrial,T3,T3.3,WS1,1670,0,0.212041951
+CAGS401,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS4,10892,1,1.382970619
+CAGS403,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS4,12933,1,1.642118896
+CAGS404,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS4,2881,0,0.365804109
+CAGS405,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS4,416,0,0.052820031
+CALR403,B,Wexford,Agriculture,Transitional Marine-Terrestrial,MT1,MT1.3,LR4,5965,1,0.757383377
+CAGS101,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS1,10207,1,1.295995327
+CAGS102,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS1,6890,1,0.874831763
+CAFS101,B,Wexford,Agriculture,Freshwater-Terrestrial,TF1,TF1.3,FS1,9547,1,1.212194317
+CAGS204,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1102,0,0.139922294
+CAGS205,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,4700,0,0.596764773
+CAGS209,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1031,0,0.130907336
+CAGS210,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,362,0,0.045963585
+CAGS211,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,621,0,0.078849133
+CAGS212,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,599,0,0.076055766
+CAGS213,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1132,0,0.14373143
+CAGS216,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1739,0,0.220802966
+CAGS218,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1192,0,0.151349704
+CAGS219,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1602,0,0.203407908
+CAGS220,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,936,0,0.11884507
+CAGS221,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1267,0,0.160872546
+CAGS222,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,616,0,0.078214277
+CAGS224,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1885,0,0.239340765
+CAGS225,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1466,0,0.186139821
+CAGS226,B,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,2686,0,0.341044719
+CABL301,B,Wexford,Agriculture,Terrestrial,T7,T7.4,BL3,377,0,0.047868153
+CABL302,B,Wexford,Agriculture,Terrestrial,T7,T7.4,BL3,727,0,0.092308083
+CABL303,B,Wexford,Agriculture,Terrestrial,T7,T7.4,BL3,221,0,0.028060641
+CABC101,B,Wexford,Agriculture,Terrestrial,T7,T7.1,BC1,17174,2,2.180603875
+CABC102,B,Wexford,Agriculture,Terrestrial,T7,T7.1,BC1,7808,1,0.991391351
+CAHD101,B,Wexford,Agriculture,Terrestrial,T3,T3.3,HD1,3683,0,0.467635034
+CAHD103,B,Wexford,Agriculture,Terrestrial,T3,T3.3,HD1,858,0,0.108941314
+CAHD105,B,Wexford,Agriculture,Terrestrial,T3,T3.3,HD1,509,0,0.064628355
+CAED301,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,9521,1,1.208893065
+CAED303,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,558,0,0.070849945
+CAED305,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,740,0,0.093958709
+CAED308,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,738,0,0.093704766
+CAED309,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1221,0,0.15503187
+CAED311,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,722,0,0.091673227
+CAGA103,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6075,1,0.771350212
+CAGA104,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6916,1,0.878133015
+CAGA105,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7742,1,0.98301125
+CAGA107,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,3638,0,0.461921329
+CAGA108,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7614,1,0.966758932
+CAGA110,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,3370,0,0.427893039
+CAGA111,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5563,1,0.706340943
+CAGA112,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1234,0,0.156682496
+CAGA113,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,11064,1,1.40480967
+CAGA114,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4281,0,0.543563828
+CAGA115,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6416,1,0.814647401
+CAGA116,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2926,0,0.371517814
+CAGA117,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,3648,0,0.463191041
+CAGA119,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1025,0,0.130145509
+CAGA121,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2999,0,0.380786714
+CAGA122,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5102,0,0.647807207
+CAGA123,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4181,0,0.530866706
+CAGA126,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2811,0,0.356916123
+CAGA127,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4440,0,0.563752254
+CAGA128,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5500,1,0.698341756
+CAGA129,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,16711,2,2.121816196
+CAGA131,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5187,1,0.658599761
+CAGA132,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,20292,2,2.576500165
+CAGA133,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,8917,1,1.132202443
+CAGA134,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,8287,1,1.052210569
+CAGA135,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,17898,2,2.272531044
+CAGA136,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1210,0,0.153635186
+CAGA137,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6041,1,0.76703319
+CAGA138,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,10600,1,1.34589502
+CAGA139,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6910,1,0.877371188
+CAGA140,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5028,0,0.638411336
+CAGA141,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,14486,1,1.839305213
+CAGA143,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4871,0,0.618476853
+CAGA144,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,9516,1,1.208258209
+CAGA147,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6931,1,0.880037583
+CAGA148,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,8513,1,1.080906067
+CAGA149,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6665,1,0.846263237
+CAGA150,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5057,1,0.642093502
+CAGA152,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1793,0,0.227659412
+CAGA153,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,16618,2,2.110007872
+CAGA154,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,10870,1,1.380177252
+CAGA156,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,12028,1,1.527209934
+CAGA157,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,14648,1,1.859874552
+CAGA158,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5843,1,0.741892887
+CAGA161,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5828,1,0.739988319
+CAGA164,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,3300,0,0.419005053
+CAGA166,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2678,0,0.340028949
+CAGA187,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2408,0,0.305746718
+CAGA168,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5161,1,0.655298509
+CAGA171,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,8016,1,1.017801366
+CAGA172,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,12134,1,1.540668884
+CAGA174,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6659,1,0.845501409
+CAGA175,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6072,1,0.770969298
+CAGA176,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4553,0,0.578100003
+CAGA177,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6349,1,0.806140329
+CAGA178,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7957,1,1.010310064
+CAGA179,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,3448,0,0.437796795
+CAGA182,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7688,1,0.976154803
+CAGA183,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2111,0,0.268036263
+CAGA184,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1715,0,0.217755657
+CAGA185,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,474,0,0.060184362
+CAGA186,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1033,0,0.131161279
+CAGA187,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,2355,0,0.299017243
+CAGA188,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,8659,1,1.099443866
+CAGA189,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7574,1,0.961680083
+CAGA190,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,5462,1,0.693516849
+CAGA191,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,16478,2,2.0922319
+CAGA192,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,3847,0,0.488458315
+CAGA193,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7434,1,0.943904111
+CAGA194,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4631,0,0.588003758
+CAGA195,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,1662,0,0.211026181
+CAGA196,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,9710,1,1.232890627
+CAGA198,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,11982,1,1.521369258
+CAGA199,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,4706,0,0.5975266
+CAGA1100,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,6073,1,0.77109627
+CAGA1101,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,16828,2,2.13667183
+CAGA1104,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,7370,1,0.935777953
+CAGA1105,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,10423,1,1.323421113
+CAGA1106,B,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,11667,1,1.481373321
+CAED201,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,4280,0,0.543436857
+CAED203,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,5002,1,0.635110084
+CAED204,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,6978,1,0.886005231
+CAED208,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,3952,0,0.501790294
+CAED212,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,783,0,0.099418472
+CAED215,B,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,1424,0,0.180807029
+COWS501,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,352740,35,1.613277004
+COWS502,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,134720,13,0.616149793
+COWS504,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,19095,2,0.087332098
+COWS505,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,12972,1,0.0593282
+COWS507,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,58550,6,0.267781847
+COWS508,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,26140,3,0.119552818
+COWS509,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,102236,10,0.467582321
+COWS510,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,302763,30,1.384704273
+COWS511,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,21659,2,0.099058702
+COWS512,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,WS5,331661,33,1.516870965
+COWD401,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,96882,10,0.443095489
+COWD402,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,62705,6,0.286784982
+COWD404,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,170003,17,0.777518655
+COWD405,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,22410,2,0.102493445
+COWD409,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,54106,5,0.247456953
+COWD410,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,4071,0,0.018618956
+COWD411,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,33499,3,0.153209634
+COWD413,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,19620,2,0.089733217
+COWD414,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,98135,10,0.448826157
+COWD416,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,32780,3,0.149921246
+COWD417,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,71856,7,0.328637615
+COWD419,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,24042,2,0.109957492
+COWD420,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,25759,3,0.117810292
+COWD421,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,194906,20,0.891413981
+COWD422,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,588655,59,2.692248043
+COWD424,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,150093,15,0.686459107
+COWD426,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,166524,17,0.761607245
+COWD427,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,301502,30,1.378937016
+COWD430,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,225107,23,1.029540019
+COWD431,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,293798,29,1.343702322
+COWD432,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,111001,11,0.50766956
+COWD433,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,80594,8,0.368601369
+COWD434,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,138134,14,0.631763921
+COWD435,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,101492,10,0.464179593
+COWD436,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,214029,21,0.978874139
+COWD440,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,810447,81,3.706626716
+COWD441,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,780151,78,3.568066189
+COWD442,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,290933,29,1.330599077
+COWD443,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,3737,0,0.017091388
+COWD444,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,3503,0,0.016021175
+COWD445,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,373668,37,1.708992435
+COWD448,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,1475005,148,6.746021564
+COWD449,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,802190,80,3.668862844
+COWD450,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,16528,2,0.075591774
+COWD451,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,511110,51,2.337591453
+COWD452,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,145757,15,0.666628157
+COWD454,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,71424,7,0.326661838
+COWD455,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,309858,31,1.417153671
+COWD456,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,409340,41,1.872140411
+COWD457,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,85534,9,0.391194747
+COWD458,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,31509,3,0.144108253
+COWD459,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,64173,6,0.293498966
+COWD460,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,22651,2,0.103595672
+COWD461,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,260348,26,1.190716792
+COWD462,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,113145,11,0.51747527
+COWD464,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,101665,10,0.464970819
+COWD465,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,49673,5,0.227182368
+COWD466,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,140884,14,0.644341207
+COWD469,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,165891,17,0.758712183
+COWD470,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,17087,2,0.078148393
+COWD471,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,147156,15,0.673026566
+COWD472,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,1150379,115,5.261325583
+COWD473,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,2893,0,0.013231305
+COWD474,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,240904,24,1.101788522
+COWD477,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,448441,45,2.05097112
+COWD478,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,259626,26,1.187414683
+COWD480,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,664057,67,3.037103496
+COWD482,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,511748,51,2.340509384
+COWD484,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,197179,20,0.901809679
+COWD486,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,223569,22,1.022505887
+COWD490,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,325956,33,1.490778814
+COWD491,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,230165,23,1.052673078
+COWD492,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,858082,86,3.924488172
+COWD493,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,482958,48,2.208836636
+COWD494,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,270805,27,1.238542493
+COWD496,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,370825,37,1.695989808
+COWD497,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,156615,16,0.716287855
+COWD498,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,348457,35,1.593688453
+COWD499,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,553230,55,2.530229735
+COWD4100,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,65232,7,0.298342364
+COWD4101,C,Galway,Commercial forestry,Terrestrial,T7,T7.3,WD4,3605,0,0.016487678
+COPB4HH301,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,355,0,0.001623613
+COPB4HH302,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1074,0,0.004912002
+COPB4HH304,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,2057,0,0.00940781
+COPB4HH306,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4256,0,0.019465065
+COPB4HH308,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1772,0,0.008104346
+COPB4HH309,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,2219,0,0.010148726
+COPB4HH310,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,2621,0,0.011987297
+COPB4HH313,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,8612,1,0.039387485
+COPB4HH314,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,6798,1,0.03109105
+COPB4HH315,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,6553,1,0.029970528
+COPB4HH316,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,21178,2,0.096858821
+COPB4HH317,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,9682,1,0.044281193
+COPB4HH318,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3065,0,0.014017957
+COPB4HH319,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1610,0,0.007363429
+COPB4HH320,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,14517,1,0.066394348
+COPB4HH321,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,25089,3,0.114746008
+COPB4HH324,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,6148,1,0.028118237
+COPB4HH325,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,21273,2,0.097293309
+COPB4HH326,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4134,1,0.018907091
+COPB4HH327,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,128,0,0.000585415
+COPB4HH329,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3940,0,0.01801982
+COPB4HH330,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3588,0,0.016409928
+COPB4HH331,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,8490,1,0.038829511
+COPB4HH332,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,237,0,0.001083933
+COPB4HH333,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3797,0,0.017365801
+COPB4HH334,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,7577,1,0.034653852
+COPB4HH335,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1303,0,0.005959347
+COPB4HH337,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,11067,1,0.050615571
+COPB4HH338,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3149,0,0.014402136
+COPB4HH339,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,13810,1,0.063160842
+COPB4HH341,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4701,0,0.021500298
+COPB4HH343,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,15657,2,0.071608204
+COPB4HH344,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,422,0,0.001930042
+COPB4HH346,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,9287,1,0.042474637
+COPB4HH347,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,6285,1,0.028744815
+COPB4HH349,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3748,0,0.017141697
+COPB4HH350,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,12412,1,0.056767007
+COPB4HH352,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,5390,1,0.02465148
+COPB4HH354,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,8770,1,0.040110108
+COPB4HH355,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,39489,4,0.180605249
+COPB4HH356,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4899,0,0.022405863
+COPB4HH357,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,18225,2,0.083353103
+COPB4HH358,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,18776,2,0.085873133
+COPB4HH359,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,16073,2,0.073510805
+COPB4HH360,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,9899,1,0.045273655
+COPB4HH361,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3173,0,0.014511901
+COPB4HH362,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,5705,1,0.026092151
+COPB4HH363,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,18547,2,0.084825788
+COPB4HH364,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,8726,1,0.039908871
+COPB4HH366,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,15009,2,0.068644539
+COPB4HH367,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1561,0,0.007139325
+COPB4HH368,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,8374,1,0.038298978
+COPB4HH369,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,24249,2,0.110904219
+COPB4HH371,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,7757,1,0.035477093
+COPB4HH372,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,15606,2,0.071374953
+COPB4HH373,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,10638,1,0.048653515
+COPB4HH374,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1765,0,0.008072331
+COPB4HH375,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,2573,0,0.011767766
+COPB4HH376,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3127,0,0.014301517
+COPB4HH377,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,24954,3,0.114128577
+COPB4HH380,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4038,0,0.018468029
+COPB4HH381,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1397,0,0.006389261
+COPB4HH382,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,18301,2,0.083700693
+COPB4HH383,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3908,0,0.017873466
+COPB4HH384,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,15873,2,0.072596093
+COPB4HH385,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,23377,2,0.106916076
+COPB4HH386,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,539,0,0.002465148
+COPB4HH387,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1401,0,0.006407555
+COPB4HH388,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1975,0,0.009032778
+COPB4HH389,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4142,0,0.018943679
+COPB4HH390,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,5462,1,0.024980776
+COPB4HH391,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3459,0,0.015819939
+COPB4HH392,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,6015,1,0.027509954
+COPB4HH393,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,21960,2,0.100435343
+COPB4HH394,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,4148,0,0.01897112
+COPB4HH395,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,10927,1,0.049975273
+COPB4HH396,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,1597,0,0.007303973
+COPB4HH397,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,26843,3,0.122768029
+COPB4HH398,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,12125,1,0.055454396
+COPB4HH399,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,11346,1,0.051891594
+COPB4HH3100,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,6796,1,0.031081903
+COPB4HH3102,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,11579,1,0.052957233
+COPB4HH3103,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,5059,1,0.023137632
+COPB4HH3104,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,41337,4,0.189057185
+COPB4HH3105,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,27643,3,0.126426876
+COPB4HH3106,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,854,0,0.003905819
+COPB4HH3107,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,3633,0,0.016615738
+COPB4HH3108,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,5599,1,0.025607354
+COPB4HH3109,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,10267,1,0.046956724
+COPB4HH3111,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4HH3,7796,1,0.035655462
+COPB402,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,22044,2,0.100819522
+COPB406,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,13028,1,0.059584319
+COPB407,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,8719,1,0.039876856
+COPB408,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,22909,2,0.10477565
+COPB409,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,5280,1,0.024148389
+COPB410,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,19633,2,0.089792673
+COPB411,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,4949,0,0.022634541
+COPB412,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,51185,5,0.234097589
+COPB413,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,15500,2,0.070890156
+COPB414,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,22469,2,0.102763285
+COPB415,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,19024,2,0.087007376
+COPB417,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,15975,2,0.073062596
+COPB420,C,Galway,Commercial forestry,Freshwater-Terrestrial,TF1,TF1.6,PB4,16326,2,0.074667915
+COPB201,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,406411,41,1.858744459
+COPB202,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,75931,8,0.347274866
+COPB203,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,38304,4,0.175185582
+COPB204,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,3285,0,0.015024139
+COPB205,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,3657,0,0.016725503
+COPB206,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,5794,1,0.026499198
+COPB208,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,14649,1,0.066998058
+COPB210,C,Galway,Commercial forestry,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,4764,0,0.021788432
+COHD102,C,Galway,Commercial forestry,Terrestrial,T3,T3.3,HD1,5285,1,0.024171256
+COFL201,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL2,237690,24,1.087089105
+COFL101,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,5842,1,0.026718728
+COFL104,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,8856,1,0.040503434
+COFL105,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,39558,4,0.180920825
+COFL108,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,57347,6,0.262279856
+COFL113,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,17355,2,0.079374107
+COFL115,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,3254,0,0.014882359
+COFL116,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,3955,0,0.018088424
+COFL118,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,16141,2,0.073821807
+COFL119,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,9842,1,0.045012962
+COFL120,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,12145,1,0.055545867
+COFL124,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,1254,0,0.005735242
+COFL126,C,Galway,Commercial forestry,Freshwater,F2,F2.2,FL1,1598,0,0.007308546
+COED201,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,7646,1,0.034969428
+COED202,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,9216,1,0.042149915
+COED204,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,6306,1,0.02884086
+COED205,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,11404,1,0.05215686
+COED207,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,21332,2,0.097563149
+COED208,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,21933,2,0.100311857
+COED209,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,32079,3,0.146715181
+COED210,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,29072,3,0.132962491
+COED211,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,36862,4,0.168590511
+COED212,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,12972,1,0.0593282
+COED213,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,17946,2,0.08207708
+COED215,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,15558,2,0.071155422
+COED216,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,52600,5,0.240569174
+COED217,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,91716,9,0.419468486
+COED219,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,24553,2,0.11229458
+COED220,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,29130,3,0.133227757
+COED221,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,32298,3,0.14771679
+COED222,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,44296,4,0.202590345
+COED223,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,29002,3,0.132642342
+COED224,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,79995,8,0.365861807
+COED226,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,7783,1,0.035596005
+COED227,C,Galway,Commercial forestry,Terrestrial,T7,T7.4,ED2,3530,0,0.016144661
+MOER101,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ER1,473,0,0.023835932
+MOBL301,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,BL3,203,0,0.010229798
+MOPB502,D,Leitrim,Upland blanket bog and heath,Freshwater-Terrestrial,TF1,TF1.6,PB5,5806,1,0.292582288
+MOPB503,D,Leitrim,Upland blanket bog and heath,Freshwater-Terrestrial,TF1,TF1.6,PB5,5231,1,0.263606261
+MOPB504,D,Leitrim,Upland blanket bog and heath,Freshwater-Terrestrial,TF1,TF1.6,PB5,9379,1,0.472636803
+MOPB505,D,Leitrim,Upland blanket bog and heath,Freshwater-Terrestrial,TF1,TF1.6,PB5,3771,0,0.190032347
+MOPB506,D,Leitrim,Upland blanket bog and heath,Freshwater-Terrestrial,TF1,TF1.6,PB5,1193,0,0.060118958
+MOPB507,D,Leitrim,Upland blanket bog and heath,Freshwater-Terrestrial,TF1,TF1.6,PB5,7450,1,0.37542853
+MOPB201,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,217962,22,10.98377897
+MOPB204,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,96223,10,4.848974425
+MOPB205,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,66884,7,3.370491519
+MOPB212,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,148363,15,7.476470206
+MOPB213,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,18394,2,0.926930522
+MOPB214,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,145606,15,7.337536453
+MOPB216,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,57387,6,2.891908331
+MOPB217,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,201877,20,10.17320609
+MOPB219,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,51605,5,2.600535477
+MOPB220,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,44747,4,2.254939657
+MOPB222,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,360051,36,18.14408292
+MOPB225,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,28393,3,1.430811042
+MOPB226,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,100754,10,5.077305522
+MOPB227,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,49858,5,2.512498746
+MOPB229,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,175728,18,8.85547715
+MOPB231,D,Leitrim,Upland blanket bog and heath,Transitional Freshwater-Terrestrial,TF1,TF1.6,PB2,101687,10,5.124322276
+MOED301,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED3,6444,1,0.32473308
+MOED303,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED3,16897,2,0.851492064
+MOED305,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED3,4534,0,0.228482276
+MOED308,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED3,1686,0,0.084962752
+MOED309,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED3,1580,0,0.079621084
+MOED310,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED3,1029,0,0.051854491
+MOED201,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED2,10544,1,0.531344755
+MOED202,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED2,17110,2,0.862225792
+MOED203,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED2,13630,1,0.686857835
+MOED204,D,Leitrim,Upland blanket bog and heath,Terrestrial,T7,T7.4,ED2,11920,1,0.600685648
+RAGA102,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,3518,0,0.470671342
+RAGA103,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,36053,4,4.823511626
+RAGA104,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,10734,1,1.43609613
+RAGA112,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,36658,4,4.904454253
+RAGA113,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,21213,2,2.838075947
+RAGA114,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,13566,1,1.814987899
+RAGA115,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,13274,1,1.775921375
+RAGA117,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,17201,2,2.301312608
+RAGA118,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,11368,1,1.520918652
+RAGA119,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,9923,1,1.327592873
+RAGA120,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,13493,1,1.805221268
+RAGA121,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,6970,1,0.93251258
+RAGA122,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,29665,3,3.968864515
+RAGA124,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,31496,3,4.213833028
+RAGA125,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,34529,3,4.619616479
+RAGA126,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,48255,5,6.456010692
+RAGA129,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,29329,3,3.923911255
+RAGA130,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,17410,2,2.329274607
+RAGA131,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,23167,2,3.099500564
+RAGA134,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,29782,3,3.984517883
+RAGA135,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,31523,3,4.217445344
+RAGA136,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,29154,3,3.900498098
+RAGA137,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,24335,2,3.25576666
+RAGA138,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,34966,3,4.678082476
+RAGA189,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,23256,2,3.111407826
+RAGA140,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,32208,3,4.309091128
+RAGA141,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,17242,2,2.306797977
+RAGA143,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,10873,1,1.454692866
+RAGA145,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,19779,2,2.646221852
+RAGA146,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,19786,2,2.647158379
+RAGA147,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,23070,2,3.086522986
+RAGA148,E,Kilkenny,Agriculture,Terrestrial,T7,T7.2,GA1,11972,1,1.60172749
+RAED304,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED3,1606,0,0.214865883
+RAED306,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED3,1529,0,0.204564094
+RAED307,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED3,1317,0,0.176200727
+RAED309,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED3,1510,0,0.202022094
+RAED310,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED3,1262,0,0.168842306
+RAED203,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED2,6802,1,0.910035949
+RAED204,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED2,4682,0,0.626402281
+RAED205,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,ED2,12715,1,1.701133063
+RABL302,E,Kilkenny,Agriculture,Terrestrial,T7,T7.4,BL3,252,0,0.033714945
+RIWD401,F,Wexford,Agriculture,Terrestrial,T7,T7.3,WD4,39068,4,3.094379853
+RIWD404,F,Wexford,Agriculture,Terrestrial,T7,T7.3,WD4,20462,2,1.620692141
+RIWD406,F,Wexford,Agriculture,Terrestrial,T7,T7.3,WD4,77144,8,6.110188373
+RIWD407,F,Wexford,Agriculture,Terrestrial,T7,T7.3,WD4,66057,7,5.232042847
+RIWD414,F,Wexford,Agriculture,Terrestrial,T7,T7.3,WD4,78972,8,6.254975062
+RIGS403,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS4,2868,0,0.22715986
+RIGS205,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,19071,2,1.510518024
+RIGS206,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,2694,0,0.213378195
+RIGS207,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,2306,0,0.182646666
+RIGS208,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1238,0,0.098055756
+RIGS209,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,541,0,0.04284989
+RIGS210,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,374,0,0.02962266
+RIGS211,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,457,0,0.036196672
+RIGS212,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,1885,0,0.149301373
+RIGS215,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,4786,0,0.379074997
+RIGS216,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,3200,0,0.253455911
+RIGS219,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,658,0,0.052116872
+RIGS220,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS2,3439,0,0.272385899
+RIGS102,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS1,15288,2,1.210885615
+RIGS103,F,Wexford,Agriculture,Terrestrial,T7,T7.5,GS1,1257,0,0.09956065
+RIGA102,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,41131,4,3.25777971
+RIGA103,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,99561,10,7.885726234
+RIGA106,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,60284,6,4.774792542
+RIGA107,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,94076,9,7.451286962
+RIGA108,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,38236,4,3.028481316
+RIGA109,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,62010,6,4.911500324
+RIGA110,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,59639,6,4.723705335
+RIGA111,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,133901,13,10.60562498
+RIGA114,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,34588,3,2.739541577
+RIGA115,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,13442,1,1.064673236
+RIGA116,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,71030,7,5.625929173
+RIGA117,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,35163,4,2.785084436
+RIGA121,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,8613,1,0.682192425
+RIGA123,F,Wexford,Agriculture,Terrestrial,T7,T7.2,GA1,30437,3,2.410761738
+RIFW401,F,Wexford,Agriculture,Freshwater,F3,F3.5,FW4,3333,0,0.263990172
+RIFW202,F,Wexford,Agriculture,Freshwater,F1,F1.2,FW2,3263,0,0.258445824
+RIFW205,F,Wexford,Agriculture,Freshwater,F1,F1.2,FW2,11816,1,0.935885951
+RIED301,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,3029,0,0.239911861
+RIED302,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1313,0,0.103996128
+RIED303,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1536,0,0.121658837
+RIED305,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1494,0,0.118332228
+RIED306,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1648,0,0.130529794
+RIED307,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1303,0,0.103204079
+RIED308,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1443,0,0.114292775
+RIED309,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1360,0,0.107718762
+RIED311,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1237,0,0.097976551
+RIED312,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1222,0,0.096788476
+RIED315,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1276,0,0.101065544
+RIED316,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,938,0,0.074294264
+RIED317,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1215,0,0.096234041
+RIED320,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1358,0,0.107560352
+RIED324,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1208,0,0.095679606
+RIED325,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,375,0,0.029701865
+RIED326,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,973,0,0.077066438
+RIED327,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1133,0,0.089739233
+RIED328,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1609,0,0.1274408
+RIED330,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED3,1861,0,0.147400453
+RIED202,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,10271,1,0.813514269
+RIED203,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,3715,0,0.294246472
+RIED205,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,7148,1,0.566157141
+RIED207,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,4512,0,0.357372834
+RIED210,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,12419,1,0.983646549
+RIED216,F,Wexford,Agriculture,Terrestrial,T7,T7.4,ED2,20973,2,1.661165881
+RIBL301,F,Wexford,Agriculture,Terrestrial,T7,T7.4,BL3,1184,0,0.093778687
+RIBL303,F,Wexford,Agriculture,Terrestrial,T7,T7.4,BL3,1775,0,0.140588826
+RIBC101,F,Wexford,Agriculture,Terrestrial,T7,T7.1,BC1,30731,3,2.434048
+TEBL301,G,Cavan,Agriculture,Terrestrial,T7,T7.4,BL3,1149,0,0.179745822
+TEGA101,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,15928,2,2.491724496
+TEGA102,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,7342,1,1.148558592
+TEGA103,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,19798,2,3.097134705
+TEGA107,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,21899,2,3.425808309
+TEGA109,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,16475,2,2.577295396
+TEGA110,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,6339,1,0.991652535
+TEGA112,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,26181,3,4.095670457
+TEGA113,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,26444,3,4.136813321
+TEGA114,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,8038,1,1.257438567
+TEGA116,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,9111,1,1.425295196
+TEGA117,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,23600,2,3.691907214
+TEGA118,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,13215,1,2.067311603
+TEGA119,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,7373,1,1.153408131
+TEGA120,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,10131,1,1.584860677
+TEGA121,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,8347,1,1.305777522
+TEGA123,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,7692,1,1.203311453
+TEGA125,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,21175,2,3.312548104
+TEGA126,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,21242,2,3.323029366
+TEGA127,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,15136,2,2.367826593
+TEGA128,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,14645,1,2.291016151
+TEGA129,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,14296,1,2.236419726
+TEGA130,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,8036,1,1.257125694
+TEGA131,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,10933,1,1.710322948
+TEGA132,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,10602,1,1.658542385
+TEGA133,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,7009,1,1.096465155
+TEGA134,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,18690,2,2.92380279
+TEGA135,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,22478,2,3.516385185
+TEGA138,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,10237,1,1.601442973
+TEGA140,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,17661,2,2.762829378
+TEGA141,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,13981,1,2.187142151
+TEGA142,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,17344,2,2.713238929
+TEGA143,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,9214,1,1.441408181
+TEGA144,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,6524,1,1.020593333
+TEGA147,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,9868,1,1.543717813
+TEGA149,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,6070,1,0.94957105
+TEGA150,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,3113,0,0.486987591
+TEGA151,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,810,0,0.126713765
+TEGA152,G,Cavan,Agriculture,Terrestrial,T7,T7.2,GA1,327,0,0.051154816
+TEWS101,G,Cavan,Agriculture,Terrestrial,T3,T3.3,WS1,2722,0,0.425820824
+TEWS102,G,Cavan,Agriculture,Terrestrial,T3,T3.3,WS1,5281,1,0.826142458
+TEWS103,G,Cavan,Agriculture,Terrestrial,T3,T3.3,WS1,648,0,0.101371012
+TEWS104,G,Cavan,Agriculture,Terrestrial,T3,T3.3,WS1,1698,0,0.265629595
+TEHH301,G,Cavan,Agriculture,Terrestrial,T3,T3.3,HH3,14654,1,2.292424081
+TEHH302,G,Cavan,Agriculture,Terrestrial,T3,T3.3,HH3,2176,0,0.34040636
+TEGS401,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS4,2412,0,0.377325432
+TEGS402,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS4,2255,0,0.352764863
+TEGS403,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS4,17028,2,2.663804917
+TEGS405,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS4,4266,0,0.66735916
+TEGS301,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS3,4679,0,0.731967536
+TEGS101,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS1,8634,1,1.350674868
+TEGS103,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS1,15239,2,2.383939578
+TEGS105,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS1,9413,1,1.472539094
+TEGS109,G,Cavan,Agriculture,Terrestrial,T7,T7.5,GS1,25504,3,3.989762779
+TEED301,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED3,1346,0,0.210563861
+TEED303,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED3,2152,0,0.336651878
+TEED304,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED3,2477,0,0.387493821
+TEED306,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED3,1547,0,0.242007647
+TEED307,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED3,2198,0,0.343847969
+TEED201,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED2,3836,0,0.600091359
+TEED202,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED2,5451,1,0.852736704
+TEED203,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED2,12256,1,1.917288763
+TEED205,G,Cavan,Agriculture,Terrestrial,T7,T7.4,ED2,2911,0,0.455387369
